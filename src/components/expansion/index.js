@@ -1,6 +1,7 @@
 import React from 'react'
 import Template from '../helpers/template'
 import './style.css'
+import SectionTitle from '../helpers/sectionTitle/index' 
 import Shap from '../../img/shap/shap.svg'
 import ExpShap from '../../img/shap/expension-title-shap.svg'
 import BtmShap from '../../img/shap/bottom-shap.svg'
@@ -42,7 +43,7 @@ function Expensions() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h2 className="title text-center">Expension</h2>
+                            <SectionTitle title="Expension" class/> 
                         </div>
                         <div className="col-lg-4">
                             <div className="claiming-blk">

@@ -1,0 +1,122 @@
+.landmanagment-area .exp-blk-details {
+    text-align: center;
+}
+
+.landmanagment-area .exp-blk-details h3 {
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+.landmanagment-area .exp-blk-details table tr td {
+    color: #fff !important;
+}
+
+.landmanagment-area .exp-blk-details table tr td span {
+    color: #00FF00;
+}
+
+
+
+
+.landmanagment-area .claiming-blk {
+    padding: 50px;
+    text-align: center;
+}
+
+.landmanagment-area .claiming-blk .clm-titles {
+    margin-bottom: 20px;
+}
+
+.landmanagment-area .claiming-blk  h4 {
+    color: #FF7BAC;
+}
+
+.landmanagment-area .claiming-blk p {
+    color: #fff;
+    font-size: 24px;
+}
+
+.landmanagment-area .claiming-blk table tr td {
+    color: #fff !important;
+}
+
+.landmanagment-area .claiming-blk table tr td span {
+    color: #07DCF1;
+}
+
+.landmanagment-area .claiming-blk small {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    margin-top: 20px;
+}
+
+.landmanagment-area .claiming-blk button.block_btn {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mapContents {
+    text-align: center;
+}
+
+.mapContents h5 {
+    margin-bottom: 50px;
+    color: #FF7BAC;
+    font-size: 34px;
+}
+
+.mapContents button.theme_btn {
+    width: 440px;
+    margin-top: 30px;
+    overflow: unset;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mapLocationContents {
+    text-align: center;
+}
+.exp-title {
+    text-align: center;
+    position: relative;
+    height: 68px;
+    z-index: 2;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.exp-title img.notSelect {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+

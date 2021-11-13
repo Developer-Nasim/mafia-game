@@ -1,3 +1,4 @@
+import './style.css'
 function FancyButton(props) {
     return (
         <button type="button" className={"theme_btn "+props.className}>

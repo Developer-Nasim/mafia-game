@@ -1,0 +1,149 @@
+.eyekeExampleBlk .clm-titles h5 {
+    font-size: 60px;
+    color: #DEF628;
+}
+
+.eyekeExampleBlk  img.content_img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.eyeke-wrp {
+    margin-left: 50px;
+}
+
+ul.pointings {
+    padding: 15px 30px;
+    background: #00263f85;
+    border: 1px solid #ffffff6e;
+}
+ul.pointings li {
+    display: flex;
+    font-size: 36px;
+    color: #fff;
+    align-items: flex-start;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+ul.pointings li:last-child{
+    margin: 0;
+}
+ul.pointings li img {
+    width: 26px;
+    margin-right: 15px;
+}
+
+ul.pointings li span {
+    display: block;
+    color: #00CFFD;
+}
+.eyeke-wrp ul.moreInfo {
+    margin: 30px 0;
+    margin-bottom: 110px;
+    color: #fff;
+}
+
+.eyeke-wrp ul.moreInfo span {
+    color: #00cffd;
+}
+.eyeke-wrp button.theme_btn {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    width: 330px;
+    overflow: unset;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eyeke-wrp-two {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 80%;
+}
+
+.eyeke-wrp-two small span {
+    color: #00CFFD;
+}
+
+.eyeke-wrp-two small.text-red {
+    color: red;
+}
+
+.eyeke-wrp-two .amount {
+    display: flex;
+}
+
+.eyeke-wrp-two .amount .amount-left {margin-right: 15px;}
+ 
+.eyeke-wrp-two .amount .amount-right .fblk {
+    display: flex;
+    align-items: center;
+}
+.eyeke-wrp-two .amount .amount-right .fblk input {
+    margin-right: 15px;
+    width: 360px;
+    height: 40px;
+    font-size: 24.12px;
+    padding: 10px;
+    border: none;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: transparent;
+    color: #fff;
+}
+.eyeke-wrp-two .amount .amount-right .btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.eyeke-wrp-two .amount .amount-right button.theme_btn {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: #19def5;
+}
+
+.eyeke-wrp-two .amount .amount-right button.theme_btn:hover {
+    color: #f374a8;
+}
+
+.eyeke-wrp-two .amount .amount-right  p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.eyeke-wrp-two .amount .amount-right p span {
+    color: #70f2fc;
+}
+
+.eyeke-wrp-two .amount .amount-right button.block_btn.s_green {
+    padding: 2px 25px;
+}
+.eyeke-wrp-two .amount .amount-right button:first-child{
+    margin-left: 0;
+}
+.eyeke-wrp-two .amount .amount-right button:last-child{
+    margin-right: 0;
+}
+.eyeke-wrp-two .amount .amount-right .fblk input::placeholder {
+    color: #73FCA9;
+    opacity: .5;
+}

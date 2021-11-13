@@ -1,0 +1,46 @@
+button.the_icon {
+    width: 60px;
+    height: 60px;
+    background: none;
+    position: relative;
+    border: none;
+    z-index: 2;
+    overflow: hidden;
+}
+button.the_icon img.backShap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    pointer-events: none;
+}
+/* button.the_icon:after,button.the_icon:before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border: 2px solid #FF7BAC;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    box-shadow: inset 0px 0px 10px #af119d;
+}
+
+button.the_icon:before {
+    width: 75%;
+    height: 75%;
+    box-shadow: 0px 0px 10px #af119d;
+    border: none;
+} */
+  
+.single_coin_block button.the_icon {
+    margin-right: 10px;
+}
+button.the_icon img.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ 

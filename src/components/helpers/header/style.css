@@ -40,8 +40,7 @@
 
 .sort-profile_avater img.Avater {
     z-index: -1;
-}
-
+} 
 .sort-profile_avater  span {
     font-family: 'Bebas Neue', cursive;
     position: absolute;
@@ -50,198 +49,20 @@
     font-size: 15.88px;
     font-weight: 700;
     color: #1A1A1A;
-}
- 
-
-
-
-
-
+} 
 .sort-profile_details {
     color: #fff;
-}
-
+} 
 .sort-profile_details h4 {
     font-size: 15.88px;
     font-weight: 900;
-}
-
-.progs {
-    position: relative;
-    width: 95%;
-    height: 18px;
-    border: 2px solid #85E8FF;
-    border-right: none;
-    padding: 2px;
-    margin-right: 13px;
-}
-
-.progs:before {
-    content: "";
-    width: 15px;
-    height: 11px;
-    position: absolute;
-    right: -12px;
-    top: -2px;
-    border: 2px solid #85e8ff;
-    border-left: none;
-    border-bottom: none;
-}
- 
-.progs:after {
-    content: "";
-    position: absolute;
-    width: 13px;
-    height: 2px;
-    background: #85e8ff;
-    right: -12px;
-    bottom: 1px;
-    transform: rotate(-30deg);
-}
-
-.progs .prog_bar {
-    display: block;
-    width: 50%;
-    background: #FF7BAC;
-    height: 100%;
-    position: relative;
-}
-.progs .prog_bar:after {
-    content: "";
-    position: absolute;
-    width: 14px;
-    background: #FF7BAC;
-    right: -10px;
-    height: 101%;
-    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 43%, 51% 100%, 20% 100%, 0 100%, 0% 35%, 0 0);
-}
-.progs span {
-    position: absolute;
-    font-size: 11.76px;
-    display: block;
-    right: 0;
-    top: 50%;
-    font-family: 'Bebas Neue', cursive;
-    transform: translateY(-50%);
-    font-weight: 400;
-}
-.prgBlk {
-    box-shadow: 0px 0px 10px #0de0f8;
-    width: 200px;
-    border-radius: 0 0 15px 0;
-}
-
-
-.prgBlk.soft_red {
-    box-shadow: 0px 0px 10px #f80db2;
-}
-
-.prgBlk.soft_red .progs {
-    border-color: #dc47e5;
-}
-
-.prgBlk.soft_red .progs::before {
-    border-color: #dc47e5;
-}
-
-.prgBlk.soft_red .progs::after {
-    background: #dc47e5;
-}
-
-.prgBlk.soft_red .prog_bar {
-    background: #00CFFD;
-}
-
-.prgBlk.soft_red .prog_bar::after {
-    background: #00cffd;
-}
+} 
 .sort-profile_details .prgBlk.soft_red {
     margin-top: 5px;
-}
-
-
-
-
-
-
-
-
+} 
 .sort-profile_details .prgBlk.soft_red {
     margin-top: 5px;
-}
-
-button.the_icon {
-    width: 60px;
-    height: 60px;
-    background: none;
-    position: relative;
-    border: none;
-    z-index: 2;
-    overflow: hidden;
-}
-button.the_icon img.backShap {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: -1;
-    pointer-events: none;
-}
-/* button.the_icon:after,button.the_icon:before {
-    content: "";
-    position: absolute;
-    width: 75%;
-    height: 75%;
-    border: 2px solid #FF7BAC;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(45deg);
-    box-shadow: inset 0px 0px 10px #af119d;
-}
-
-button.the_icon:before {
-    width: 75%;
-    height: 75%;
-    box-shadow: 0px 0px 10px #af119d;
-    border: none;
-} */
-
-
-
-
-
-
-.single_coin_block button.the_icon {
-    margin-right: 10px;
-}
-button.the_icon img.icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.single_coin_block {
-    display: flex;
-    align-items: center;
-}
-
-.single_coin_block_details h5 {
-    font-size: 17px;
-    margin-bottom: 0;
-    font-weight: 900;
-}
-
-.single_coin_block_details span {
-    font-family: 'Nova Cut', cursive;
-    font-size: 20px;
-    color: #FF7BAC;
-    display: block;
-}
-
-.single_coin_block_details {
-    text-align: center;
-}
-
+} 
 .allTopBlk {
     display: flex;
     align-items: center;

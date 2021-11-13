@@ -87,3 +87,21 @@ li {
     user-select: none;
     pointer-events: none;
 }
+.pointer_none{
+  pointer-events: none;
+}
+.opacity_point_5{
+  opacity: .5;
+}
+.exp-blk.full-width {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+

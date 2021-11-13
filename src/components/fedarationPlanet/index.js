@@ -14,14 +14,14 @@ import NormalButton from '../helpers/buttons/normalBtn'
 import TheSlider from "../helpers/slider/index";
  
  
-function Allegiance() {
+function FedarationPlanet() {
     return (
         <Template backg={Background}>
             <div className="allegiance-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <SectionTitle title="Allegiance Core" class/>
+                            <SectionTitle title="Here are the planets currently in the federation" class/>
                         </div>
                         <div className="col-lg-12">
                             <div className="allegiances-carousel">
@@ -49,8 +49,9 @@ function Allegiance() {
                                 </TheSlider>
                             </div>
                             <div className="bottomBtns">
-                                <NormalButton className="s_green small" background={BlkGreenBtnBkg} title="Staking BIG"/> 
+                                <NormalButton className="s_green small" background={BlkGreenBtnBkg} title="Select Planet"/> 
                             </div>
+                            <p className="text-center text-light">After you have selected your planet you can change planets anytime you like </p>
                         </div>
                     </div>
                 </div>
@@ -60,4 +61,4 @@ function Allegiance() {
 }
 
 
-export default  Allegiance;
+export default  FedarationPlanet;

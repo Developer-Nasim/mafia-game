@@ -1,0 +1,48 @@
+.avaterBtnsWrp button.theme_btn {
+    display: block;
+    margin: auto;
+    width: 300px;
+    font-size: 26px;
+    overflow: unset;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.avaterBtnsWrp {
+    display: block;
+    text-align: center;
+}
+
+.avaterBtnsWrp .single_coin_block {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 50px;
+}
+ 
+.avater-middle-wrp img {
+    width: 100%;
+}
+.avaterBtnsWrp .single_coin_block h5 {
+    font-size: 38.09px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
