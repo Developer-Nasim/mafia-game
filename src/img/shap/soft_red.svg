@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260.291" height="85.819" viewBox="0 0 260.291 85.819">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7bac" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff7bac"/>
+      <stop offset="1" stop-color="#ff7bac" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_12605" data-name="Group 12605" transform="translate(-1130.854 -314.509)">
+    <rect id="Rectangle_5228" data-name="Rectangle 5228" width="224.29" height="49.819" transform="translate(1148.854 332.509)" opacity="0.4" fill="url(#linear-gradient)"/>
+    <g id="Group_12366" data-name="Group 12366">
+      <g id="Group_12365" data-name="Group 12365">
+        <g id="Group_12364" data-name="Group 12364">
+          <path id="Path_48789" data-name="Path 48789" d="M1243.227,327.839a.24.24,0,0,1,.17.071l3,3a.242.242,0,0,0,.17.07h7.189a.239.239,0,0,0,.24-.24V326.2a.24.24,0,0,0-.24-.24h-15.344a.49.49,0,0,0-.192.04l-4.14,1.774a.035.035,0,0,0,.014.068Z" fill="#ff7bac"/>
+          <path id="Path_48790" data-name="Path 48790" d="M1268.248,330.976h7.189a.242.242,0,0,0,.17-.07l3-3a.24.24,0,0,1,.17-.071h9.137a.035.035,0,0,0,.014-.068l-4.14-1.774a.49.49,0,0,0-.192-.04h-15.344a.24.24,0,0,0-.24.24v4.539A.239.239,0,0,0,1268.248,330.976Z" fill="#ff7bac"/>
+          <path id="Path_48791" data-name="Path 48791" d="M1314.315,330.671a1.409,1.409,0,0,1-.381-.07l-5.3-1.14a1.057,1.057,0,0,0-.331-.053h-26.975a1.108,1.108,0,0,0-.784.324l-3.27,2.643a.577.577,0,0,1-.409.17h-31.73a.577.577,0,0,1-.409-.17l-3.27-2.643a1.108,1.108,0,0,0-.784-.324H1213.7a1.057,1.057,0,0,0-.331.053l-5.3,1.14a1.409,1.409,0,0,1-.381.07l-58.777,2.5h224.184Z" fill="#ff7bac"/>
+        </g>
+        <path id="Path_48792" data-name="Path 48792" d="M1373.092,382.03H1148.908c38.984,1.272,74.9,1.774,106.042,1.855l2.656,2.193,3.394,2.8,3.394-2.8,2.641-2.181C1331.87,383.846,1373.092,382.03,1373.092,382.03Z" fill="#ff7bac"/>
+      </g>
+    </g>
+  </g>
+</svg>
