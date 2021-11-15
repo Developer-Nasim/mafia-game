@@ -143,7 +143,3 @@ ul.pointings li span {
 .eyeke-wrp-two .amount .amount-right button:last-child{
     margin-right: 0;
 }
-.eyeke-wrp-two .amount .amount-right .fblk input::placeholder {
-    color: #73FCA9;
-    opacity: .5;
-}

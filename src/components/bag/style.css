@@ -1,0 +1,12 @@
+.bag-area .popupBlk {
+    padding-right: 0;
+    padding-left: 0;
+}
+.bags {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+.bag-area .popupBlk .slick-slide {
+    transform: scale(.67);
+}

@@ -1,0 +1,185 @@
+.cardBox {
+    position: relative;
+    width: 414.37px;
+    height: 580.12px;
+    z-index: 2;
+}
+.cardBox img.CardBackground {
+    width: 100%;
+    height: 100%;
+}
+.cardBox .cardHeader {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cardBox .card_icons {
+    display: flex;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+.cardBox .card_icons button {
+    border: none;
+    padding: 0;
+    background: none;
+    display: block;
+    margin: 0 7px;
+}
+.cardBox .cardHeader button.block_btn {
+    width: 215px;
+    padding: 0px 15px;
+}
+.cardBox .card_icons button img {
+    display: block;
+    width: 32px;
+}
+.cardBox img.content_img {
+    position: absolute;
+    top: 87px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 155px;
+    max-height: 155px;
+    width: auto;
+}
+.cardBox .card_icons button:active img {
+    box-shadow: 0px 4px 15px -6px #d5fffbc2;
+}
+.cardBox img.trans_backgrounds {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    z-index: -1;
+    width: 330px;
+    height: 300px;
+    transform: translateX(-50%);
+}
+.cardBox .cardNumbers {
+    position: absolute;
+    top: 314px;
+    display: flex;
+    left: 69px;
+}
+
+.cardBox .cardNumbers h5 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    background: -webkit-linear-gradient(51deg,#6efff1, #fff, #79fff2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 2px 5px #00a3fc;
+}
+.cardBox .cardNumbers h5:nth-child(2){
+    margin-left: 40px;
+}
+.cardBox .cardNumbers h5:nth-child(3){
+    margin-left: 75px;
+}
+.cardBox .cardNumbers h5:nth-child(4){
+    margin-left: 40px;
+}
+.cardBox .card_stars {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.cardBox .card_stars button {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.cardBox .card_stars button img {
+    display: block;
+    height: 40px;
+}
+.cardBox .card_wrp {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.cardBox .card_wrp h4 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #1A1A1A;
+    font-family: 'Bebas Neue';
+    font-size: 25.87px;
+    letter-spacing: 1px;
+}
+
+.cardBox .card_wrp button {
+    border: 2px solid #1A1A1A;
+    background: no-repeat;
+    padding: 2px 20px 3px 20px;
+    font-size: 20px;
+    color: #1A1A1A;
+    margin-bottom: 15px;
+}
+
+.cardBox .card_wrp p {
+    color: #1a1a1a;
+    font-size: 17.25px;
+    font-family: modelicaRegular;
+    margin: 0;
+}
+.cardBox .cardHeader h5 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-shadow: 0px 2px 10px #37b8ff;
+    font-family: Neon;
+}
+.cardBox .card_wrp .cardWrpsContents {
+    margin-top: 8px;
+}
+
+.cardBox .card_wrp .cardWrpsContents h4 {
+    font-family: 'Neon';
+    font-weight: 700;
+    text-shadow: 0px 1px 22px white;
+}
+
+.cardBox .card_wrp .cardWrpsContents p {
+    text-shadow: 0px 1px 22px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

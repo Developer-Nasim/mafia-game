@@ -4,10 +4,7 @@
 .carousel_item img {
     margin: auto;
     margin-bottom: 20px;
-} 
-.carousel_item button.theme_btn img.backgFirst { 
-    width: 115%;
-}
+}  
 .carousel_item button.theme_btn:hover {
     color: #FF7BAC;
 }

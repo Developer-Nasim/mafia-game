@@ -1,0 +1,36 @@
+.standard-shovel {
+    display: flex;
+    align-items: center;
+}
+
+.standard-shovel .ssBlk {
+    margin-right: 50px;
+}
+
+.ssBlkWrp ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.ssBlkWrp {
+    width: 100%;
+}
+
+.ssBlkWrp ul li span {
+    display: block;
+}
+
+.ssBlkWrp ul li span:last-child{
+    color: #fff;
+    min-width: 130px;
+}
+.StandardShovel-area .popupBlk {
+    height: 930px;
+}
+.standard-shovel .ssBlk button.block_btn.s_green {
+    margin-top: 30px;
+}

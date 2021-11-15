@@ -212,10 +212,10 @@ function Expensions() {
                         </div>
                         <div className="col-lg-12">
                             <div className="bottomBtns">
-                                <FancyButton className="" backgFirst={ThemeBtnBkg} backLast={ThemeBtnBkg} title="Inventory"/>
-                                <FancyButton className="" backgFirst={ThemeBtnBkg} backLast={ThemeBtnBkg} title="Land Management"/>
-                                <FancyButton className="" backgFirst={ThemeBtnBkg} backLast={ThemeBtnBkg} title="Staking"/>
-                                <FancyButton className="" backgFirst={ThemeBtnBkg} backLast={ThemeBtnBkg} title="Collecting"/> 
+                                <FancyButton className="" title="Inventory"/>
+                                <FancyButton className="" title="Land Management"/>
+                                <FancyButton className="" title="Staking"/>
+                                <FancyButton className="" title="Collecting"/> 
                             </div>
                         </div>
                     </div>
