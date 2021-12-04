@@ -1,0 +1,32 @@
+.login-area {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: top center;
+}
+
+.login-area .loginWrp {
+    text-align: center;
+}
+
+.login-area .loginWrp img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login-area .loginWrp button {
+    border: 1px solid #317BE0;
+    padding: 5px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000;
+    background: linear-gradient(0deg, #4c4c4c, white);
+    outline: none;
+}
+
+.login-area .loginWrp button:active {
+    box-shadow: 0px 5px 15px #626262;
+}

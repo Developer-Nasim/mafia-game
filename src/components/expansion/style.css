@@ -58,11 +58,11 @@ table tbody tr td:first-child {
     position: relative;
 }
 .exp-blk-details{background: #052349ab;clip-path: polygon(3% 0%, 97% 0%, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0% 97%, 0 3%);position: relative;width: 100%;padding: 0 30px;padding-top: 95px;    padding-bottom: 26px;}
-.exp-blk .exp-title {position: absolute;top: -20px;left: 50%;z-index: 2;margin: auto;transform: translateX(-50%);}
+.exp-blk .exp-title {position: absolute;top: 0px;left: 50%;z-index: 2;margin: auto;transform: translateX(-50%);}
 
 .exp-blk .exp-title span {
     position: absolute;
-    top: 50%;
+    top: 38%;
     display: block;
     left: 50%;
     transform: translate(-50%,-50%);

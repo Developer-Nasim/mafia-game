@@ -4,7 +4,12 @@
     padding: 100px;
     background-size: 100% 100%;
 }
-
+.kevian-area .cartBlk button.theme_btn {
+    width: 340px;
+    margin-top: 50px;
+    left: 40px;
+    overflow: unset;
+}
 .kevian-content p {
     font-size: 30px;
     color: #fff;

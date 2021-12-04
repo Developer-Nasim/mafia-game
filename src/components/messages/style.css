@@ -1,0 +1,87 @@
+.msgBlk {
+    display: flex;
+    justify-content: space-between;
+    background: #023056;
+    margin-bottom: 30px;
+    padding: 20px;
+    align-items: center;
+}
+
+.msgBlk .icon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background: #052349;
+    width: 117.27px;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msgBlk  .msgContents {
+    margin: 0 40px;
+}
+
+.msgBlk  button.block_btn {margin-left: auto;margin-right: 0;}
+
+.msgBlk .msgContents h5 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.msgBlk .msgContents p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: #B3B3B3;
+}
+
+
+.empty_message {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.empty_message p {
+    margin: 0;
+    margin-top: 30px;
+    color: #73FCA9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.popupBlk button.fixedLeftBtnForBlk {
+    position: absolute;
+    top: 70px;
+    left: 65px;
+    border: none;
+    clip-path: polygon(7% 0%, 93% 0%, 100% 20%, 100% 80%, 94% 100%, 6% 100%, 0% 90%, 0% 16%);
+    padding: 5px 30px;
+    font-size: 24px;
+    color: #000;
+    background: #00FFFF;
+    z-index: 2;
+}
+
+.popupBlk button.fixedLeftBtnForBlk:after {
+    content: "";
+    position: absolute;
+    width: 98%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    clip-path: polygon(7% 0%, 93% 0%, 100% 20%, 100% 80%, 94% 100%, 6% 100%, 0% 90%, 0% 16%);
+    background: #0AA5A0;
+    z-index: -1;
+}
+
+

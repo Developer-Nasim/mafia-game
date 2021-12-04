@@ -35,7 +35,8 @@ function TheSlider(props) {
         slidesToShow: props.slideShow,
         slidesToScroll: props.SlideScroll,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow /> 
+        prevArrow: <PrevArrow />,
+        arrows: props.arrows
     };
 
     return (

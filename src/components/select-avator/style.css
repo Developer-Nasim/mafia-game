@@ -1,0 +1,200 @@
+.standard-shovel {
+    display: flex;
+    align-items: center;
+}
+
+.standard-shovel .ssBlk {
+    margin-right: 50px;
+}
+
+.ssBlkWrp ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.ssBlkWrp {
+    width: 100%;
+}
+
+.ssBlkWrp ul li span {
+    display: block;
+}
+
+.ssBlkWrp ul li span:last-child{
+    color: #fff;
+    min-width: 130px;
+}
+.StandardShovel-area .popupBlk {
+    height: 930px;
+}
+.standard-shovel .ssBlk button.block_btn.s_green {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The ckb */
+.ckb {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .ckb input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #033643;
+    border: 2px solid #45d093;
+  }  
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .ckb input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .ckb .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 7px;
+    height: 12px;
+    border: solid #45d093;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .avaterTos {
+    display: flex;
+    align-items: end;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: 0;
+}
+
+.avaters {
+    display: flex;
+    justify-content: space-between;
+}
+.selectAvatorTop {
+    text-align: center;
+    margin-bottom: 30px;
+} 
+.avators-wrp {
+    color: #fff;
+    text-align: center;
+} 
+.avators-wrp p:first-child{
+    color: #06DAF4;
+}
+.avators-wrp p {
+    margin-bottom: 50px;
+}
+.selectAvatorTop p span {
+    color: #fff;
+}
+
+.selectAvatorTop  label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.selectAvatorTop label input {
+    width: 740px;
+    margin-left: 10px;
+}
+.tos label.ckb {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.tos label.ckb a {
+    display: block;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ import Header from '../header'
 
 function Template(props) {   
     return (
-        <div className="template_body" style={{ background: "url("+props.backg+")",backgroundSize:"cover",backgroundPosition:"center" }}>
+        <div className="template_body" style={{ backgroundImage: "url("+props.backg+")",backgroundSize:"cover",backgroundPosition:"center" }}>
             <Header />
             { props.children }
         </div>

@@ -28,23 +28,23 @@ function FedarationPlanet() {
                                 <TheSlider dots={false} loop={false} speed={500} slideShow={3} SlideScroll={2}> 
                                     <div className="carousel_item">
                                         <img src={Alle} alt="" />
-                                        <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Eyeke"/> 
+                                        <FancyButton className="" title="Eyeke"/> 
                                     </div>
                                     <div className="carousel_item">
                                         <img src={Alle2} alt="" />
-                                        <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Kavian"/> 
+                                        <FancyButton className="" title="Kavian"/> 
                                     </div>
                                     <div className="carousel_item">
                                         <img src={Alle3} alt="" />
-                                        <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Magor"/> 
+                                        <FancyButton className="" title="Magor"/> 
                                     </div>
                                     <div className="carousel_item">
                                         <img src={Alle2} alt="" />
-                                        <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Kavian"/> 
+                                        <FancyButton className="" title="Kavian"/> 
                                     </div>
                                     <div className="carousel_item">
                                         <img src={Alle3} alt="" />
-                                        <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Magor"/> 
+                                        <FancyButton className="" title="Magor"/> 
                                     </div>
                                 </TheSlider>
                             </div>

@@ -1,0 +1,92 @@
+.settings h2 {
+    background: #023056;
+    padding: 0px 20px;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.settings h2 span {
+    position: relative;
+    display: block;
+    border-bottom: 2px solid;
+    width: max-content;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.settings ul {padding-left: 50px;}
+.settings ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.settings ul button {
+    margin: unset;
+}
+
+.settings ul li span {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.volumes {
+    margin-bottom: 30px;
+}
+.volumRang {
+    display: flex;
+    align-items: center;
+}
+.volRang {
+    min-width: 690px;
+    max-width: 690px;
+    position: relative;
+}
+
+.volRang img.volBar {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    height: 13px;
+    object-fit: cover;
+    object-position: left;
+    width: 52%;
+}
+
+.volRang img.volBorder {
+    width: 100%;
+    display: block;
+}
+.volRang img.volHandle {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translateY(-50%);
+    margin-left: -30px;
+}
+.volRang input[type="range"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 108%;
+    height: 30px;
+    display: block;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.settings ul li .volumRang span {
+    font-size: 24px;
+    color: #06DAF4;
+    margin-left: 30px;
+}
+

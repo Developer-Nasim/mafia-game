@@ -47,8 +47,8 @@ function EyekePlanet(){
                                     <li>Current Collecting Pot:  <span>0.9287789</span></li>
                                     <li><span>This is a great planet</span></li>
                                 </ul> 
-                                <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Let's Start"/>  
-                                <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Choose a Different Planet"/>  
+                                <FancyButton className="" title="Let's Start"/>  
+                                <FancyButton className="" title="Choose a Different Planet"/>  
                             </div> 
                         </div> 
                     </div>

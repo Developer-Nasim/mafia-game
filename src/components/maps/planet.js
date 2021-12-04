@@ -1,11 +1,12 @@
 import React from 'react'
 import Template from '../helpers/template'
 import './style.css'
+import Background from '../../img/eyeke/background.png'
 import SectionTitle from '../helpers/sectionTitle/index'  
 import ThemeBtnBkg from '../../img/shap/themeBtnBackg.svg' 
 import BlkBtnSrBackg from '../../img/shap/blockBtnSredBackg.svg'
-import Background from '../../img/background.png' 
-import MapImg from '../../img/map.png' 
+import MapImg from '../../img/location/mapFirst.png'
+import MapMarkar from '../../img/location/mapmarkar.png'
 import FancyButton from '../helpers/buttons/fancyBtn'  
  
  
@@ -21,10 +22,20 @@ function MapOfPlanet () {
                         <div className="col-lg-12"> 
                             <div className="mapContents">
                                 <h5>Select the piece of land you want to see more details of</h5>
-                                <img src={MapImg} alt="" />
+                                <div className="mpLocs">
+                                    <img src={MapImg} className="mapImg" alt="" />
+                                    <img src={MapMarkar} className="markar one" alt="" />
+                                    <img src={MapMarkar} className="markar two" alt="" />
+                                    <img src={MapMarkar} className="markar three" alt="" />
+                                    <img src={MapMarkar} className="markar four" alt="" />
+                                    <img src={MapMarkar} className="markar five" alt="" />
+                                    <img src={MapMarkar} className="markar six" alt="" />
+                                    <img src={MapMarkar} className="markar seven" alt="" />
+                                    <img src={MapMarkar} className="markar eight" alt="" />
+                                </div>
                                 <div className="btns">
-                                    <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="I want to stay on my current land"/> 
-                                    <FancyButton className="" backgFirst={BlkBtnSrBackg} backLast={ThemeBtnBkg} title="Change Planet"/> 
+                                    <FancyButton className="" type="big" title="I want to stay on my current land"/> 
+                                    <FancyButton className="" type="big" title="Change Planet"/> 
                                 </div>
                             </div>
                         </div>

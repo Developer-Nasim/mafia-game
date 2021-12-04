@@ -75,7 +75,8 @@
 .mapContents h5 {
     margin-bottom: 50px;
     color: #FF7BAC;
-    font-size: 34px;
+    font-size: 34px; 
+    margin-top: -30px;
 }
 
 .mapContents button.theme_btn {
@@ -101,6 +102,7 @@
 
 .mapLocationContents {
     text-align: center;
+    position: relative;
 }
 .exp-title {
     text-align: center;
@@ -119,4 +121,198 @@
     transform: translateX(-50%);
     z-index: -1;
 }
+
+.locationBlk {
+    width: 275px;
+    position: absolute;
+    z-index: 2;
+}
+
+.locationBlk img.locaShap {
+    width: 100%;
+    display: block;
+}
+
+.locationBlk img.location {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 98%;
+    object-fit: cover;
+    z-index: -1;
+    clip-path: polygon(82% 0%, 90% 0%, 55% 0%, 0% 0%, 1% 83%, 13% 95%, 60% 94%, 69% 100%, 89% 100%, 100% 88%, 100% 39%, 91% 33%, 91% 58%, 93% 13%)
+}
+
+.locationBlk h5 {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+    width: 58%;
+    text-align: center;
+}
+.locationBlk.rightMode img.locaShap {
+    transform: rotateY(180deg);
+}
+
+.locationBlk.rightMode img.location {
+    left: auto;
+    right: 0;
+    clip-path: polygon(90% 93%, 100% 83%, 100% 0%, 18% 0%, 9% 10%, 9% 32%, 0% 39%, 0% 61%, 0% 76%, 0% 77%, 0% 88%, 12% 100%, 31% 101%, 38% 93%)
+} 
+.locationBlk.rightMode h5 {
+    left: auto;
+    right: 0;
+}
+ 
+
+.locationBlk.one {
+    top: 25%;
+    left: 21%;
+} 
+.locationBlk.two {
+    top: 60%;
+    left: 16%;
+} 
+.locationBlk.three {
+    top: 70%;
+    left: 40%;
+} 
+.locationBlk.four {
+    left: 65%;
+    bottom: 11%;
+} 
+.locationBlk.five {
+    left: 75%;
+    top: 40%;
+} 
+.locationBlk.six {
+    top: 33%;
+    left: 53%;
+} 
+.locationBlk.seven {
+    top: 10%;
+    left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mpLocs {
+    position: relative;
+    text-align: center;
+    width: 1160px;
+    margin: auto;
+}
+
+.mpLocs .markar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    cursor: pointer;
+} 
+img.markar.one {
+    top: 40%;
+    left: 24%;
+}
+
+img.markar.two {
+    top: 70%;
+    left: 34%;
+}
+
+img.markar.three {
+    top: 19%;
+    left: 58%;
+}
+
+img.markar.four {
+    top: 54%;
+    left: 46%;
+}
+
+img.markar.five {
+    top: 35%;
+    left: 54%;
+}
+
+img.markar.six {
+    top: 40%;
+    left: 63%;
+}
+
+img.markar.seven {
+    top: 44%;
+    left: 76%;
+}
+
+img.markar.eight {
+    top: 75%;
+    left: 74%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 

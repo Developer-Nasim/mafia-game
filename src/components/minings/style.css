@@ -1,0 +1,111 @@
+.mining_success_progress {
+    text-align: center;
+}
+
+.mining_success_progress h5 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.progs_bar {
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.progs_bar img.p_backg {
+    width: 100%;
+}
+
+.progs_bar img.p_bar {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.progs_bar span {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    font-weight: 400;
+    transform: translateY(-50%);
+}
+.mining_success_progress .progs_bar {
+    margin-bottom: 30px;
+}
+
+.mining_success_progress  button.theme_btn {
+    margin: 0 10px;
+}
+
+
+
+.collectingHubTopBtn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.allMiningBlk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleMnBlk {
+    text-align: center;
+}
+
+.singleMnBlk .cardBox {
+    margin-bottom: 20px;
+}
+
+.collectingHubBottom {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+.addBlk {
+    position: relative;
+    min-width: 415px;
+    height: 580px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBlk img.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.addBlk button {
+    border: none;
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+

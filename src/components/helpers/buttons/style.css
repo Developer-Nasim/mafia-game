@@ -20,10 +20,12 @@ button.theme_btn img {
 }
 button.theme_btn img.backgFirst {
     opacity: 0;
-    width: 115%;
+    width: 100%;
+    height: 100%;
 }
 button.theme_btn img.backgLast.notSelect {
-    width: 125%;
+    width: 100%;
+    height: 100%;
 }
 button.theme_btn:hover,
 button.theme_btn.active {
@@ -37,7 +39,10 @@ button.theme_btn:hover img.backgLast,
 button.theme_btn.active img.backgLast {
     opacity: 0;
 }
-
+button.disabled {
+    filter: grayscale(1);
+    pointer-events: none;
+}
 
 
 

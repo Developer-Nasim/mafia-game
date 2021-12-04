@@ -1,4 +1,5 @@
 .template_body { 
-    overflow: hidden;
-  }
+  overflow: hidden; 
+  min-height: 100vh;
+}
   

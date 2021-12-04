@@ -96,3 +96,18 @@
     opacity: 1;
     top: 45px;
 }
+
+
+
+
+
+.EquippedCart .cardBox {
+    margin: auto;
+}
+.EquippedCart .cardBox button.block_btn.s_green {
+    margin-top: 0px;
+}
+
+.EquippedCart button.block_btn.s_green {
+    margin-top: 30px;
+}

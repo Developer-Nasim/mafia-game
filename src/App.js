@@ -9,7 +9,18 @@ import KevianIsTheBestPlanet from '../src/components/KavianIsTheBestPlanet';
 import LandManagement from '../src/components/LandManagement';
 import MapOfPlanet from '../src/components/maps/planet';
 import MapOfLocations from '../src/components/maps/locations';
+import Messages from '../src/components/messages';
+import EmptyMessages from '../src/components/messages/empty';
+import MiningHub from '../src/components/minings';
+import MiningSuccess from '../src/components/minings/mining_success';
+import MyBag from './components/bag';
+import StandardShovel from '../src/components/StandardShovel';
+import Weapons from '../src/components/weapon';
+import Settings from '../src/components/settings';
+import SelectAvator from '../src/components/select-avator';
+import Login from './components/auth/login'; 
 
+ 
 function App() {
   return (
     <div className="App">
@@ -23,7 +34,17 @@ function App() {
         {/* <KevianIsTheBestPlanet /> */}
         {/* <LandManagement /> */}
         {/* <MapOfPlanet /> */}
-        <MapOfLocations />
+        {/* <MapOfLocations /> */}
+        {/* <Messages /> */}
+        {/* <EmptyMessages /> */}
+        {/* <MiningHub /> */}
+        {/* <MiningSuccess /> */}
+        {/* <MyBag /> */}
+        {/* <StandardShovel /> */}
+        {/* <Weapons /> */}
+        {/* <Settings /> */}
+        {/* <SelectAvator /> */}
+        <Login />
     </div>
   );
 }
