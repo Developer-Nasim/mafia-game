@@ -24,7 +24,7 @@ import Login from './components/auth/login';
 function App() {
   return (
     <div className="App">
-        {/* <Expensions /> */}
+        <Expensions />
         {/* <Allegiance /> */}
         {/* <Avater /> */}
         {/* <Equippepments /> */}
@@ -44,7 +44,7 @@ function App() {
         {/* <Weapons /> */}
         {/* <Settings /> */}
         {/* <SelectAvator /> */}
-        <Login />
+        {/* <Login /> */}
     </div>
   );
 }
